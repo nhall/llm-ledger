@@ -1,0 +1,5 @@
+# Direct dependencies only; transitive deps resolve from these.
+# Pinned to the versions the code was developed against: anthropic 1.x is a
+# breaking major change from 0.95, so this must not float.
+anthropic==0.95.0
+python-dotenv==1.2.2
